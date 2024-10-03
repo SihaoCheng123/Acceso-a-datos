@@ -1,0 +1,13 @@
+
+EJERCICIO 1
+
+-Crear un clase producto con atributos(nombre, precio y cantidad)
+-Crear clase principal (main) que gestione nuestra tienda. El programa deberá:
+    - Añadir productos en el inventario
+    - Mostrar todos los productos
+    - Actualizar la cantidad y el precio de un producto específico
+    - Eliminar un producto del inventario ((Eliminar productos intermedios. No puede ser el primero ni el último)
+    - Calcular el valor total del inventario (suma de precio * cantidad de cada producto) de todos los productos
+
+Se han de usar ArrayLists.
+

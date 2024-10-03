@@ -1,0 +1,2 @@
+GitHub Advanced Security enables you to find and fix vulnerabilities with ease and ship secure code quickly.
+Dive into GitHub Advanced Security
