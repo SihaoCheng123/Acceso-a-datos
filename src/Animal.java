@@ -8,6 +8,22 @@ public class Animal {
         this.age = age;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public void showInfo(){
         System.out.println("Nombre: " + this.name + "; Edad: " + this.age);
     }
@@ -15,4 +31,14 @@ public class Animal {
     public void makeNoise(){
         System.out.println("Noise");
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
+
 }
