@@ -11,3 +11,36 @@ EJERCICIO 1
 
 Se han de usar ArrayLists.
 
+
+EJERCICIO 3
+
+-Crear una clase Vehículo con atributos velocidadMaxima y marca. Otras dos clases hijas: Coche y Bicicleta
+-Ambas clases tendrán un método acelerar() que aumentará la velocidad actual.
+-En la clase Coche, añade un atributo extra llamado capacidadCombustible
+-En la clase Bicicleta, añade un atributo llamado tipoBicicleta
+El programa pedirá:
+    -Acelerar tanto el coche como la bicicleta
+    -Mostrar la información completa de cada vehículo
+
+EJERCICIO 4
+
+-Crear una clase abstracta CuentaBancaria con atributos como saldo y métodos abstractos como depositar() y retirar().
+-Después, crear dos clases hijas: CuentaCorriente y CuentaAhorros.
+-CuentaCorriente tendrá un atributo adicional envios
+-CuentaAhorros tendrña  un atributo interesAnual
+El programa debe:
+    -Permitir la creación de cuentas corrientes y cuentas de ahorros
+    -Realizar depósitos y retiros de cuenta
+    -Calcular el interés anual de cuenta de ahorro(1.59%) y permitir un máximo de envios en la cuenta corriente
+    -Mostrar la información completa de cada cuenta
+
+
+EJERCICIO 5
+
+-Crear una interfaz llamada Conectable con metodos encender() y apagar()
+-Después, crear dos clases Teléfono y Ordenador que implementan esta interfaz
+    -Crear en el main instancias de teléfono y ordenador
+    -Encender y apagar ambos dispositivos
+
+    Si añadimos dos interfaces
+    -Crear otra interfaz llamada Recargable con metodos cargar() y nivelDeBateria()
