@@ -1,0 +1,8 @@
+Samsung
+Apple
+Xiaomi
+Poco
+Huawei
+Motorola
+Vivo
+NothingPhone
