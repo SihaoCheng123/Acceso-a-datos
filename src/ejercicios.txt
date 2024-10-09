@@ -44,3 +44,36 @@ EJERCICIO 5
 
     Si añadimos dos interfaces
     -Crear otra interfaz llamada Recargable con metodos cargar() y nivelDeBateria()
+
+
+EJERCICIO 7
+
+-Crear una clase abstracta llamada Empleado con atributos nombre, salarioBase y un método abstracto calcularSalario()
+    -Crear dos interfaces Autenticable, con método iniciarSesioon() y cerrarSesion(). Y la interfaz Bonificable con el método calcularBono()
+
+    Crear dos clases Gerente y Programador, que extiendan la clase empleado e implementen las dos interfaces
+    - Crear instancias de Gerente y Programador
+    - Iniciar sesión para ambos empleados y calcular el salario(incluyendo los bonos)
+    - Mostrar la información completa de cada empleado
+    - Cerrar sesión para ambos empleados
+
+
+  EJEMPLO*
+  public static void main(String []args){
+  Gerente gerente = new Gerente("Laura", 3000, 500); nombre, salario y bono
+  Programador programador = new Programador ("Carlos", 300, 500);
+
+  gerente.iniciarSesion("LauraG", "password1");
+  programador.iniciarSesion("CarlosG", "password2");
+
+  System.out.println("Información del gerente " + gerente.mostrarInfo());
+  System.out.println("Información del programador " + programador.mostrarInfo());
+
+  gerente.cerrarSesion();
+  programador.cerrarSesion();
+
+
+
+
+  }
+  }
