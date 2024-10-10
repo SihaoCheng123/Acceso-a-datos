@@ -1,0 +1,3 @@
+Alumno{nombre='Angela Veron', edad= 20, curso=' DAW', nota=7.1223}
+Alumno{nombre='Silvia Climent', edad= 24, curso=' DAW', nota=5.5}
+Alumno{nombre='Jordi Costa', edad= 22, curso=' DAW', nota=9.0}

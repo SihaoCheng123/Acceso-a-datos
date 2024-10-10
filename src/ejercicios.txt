@@ -74,6 +74,11 @@ EJERCICIO 7
 
 
 
+EJERCICIO
 
+Crear el programa que reciba el nombre de un fichero.
+    -Si no existe, lo crea
+    -Si existe, debemos contar de caracter en caracter las vocales de la primera linea del archivo
+    Hay que mostrar en pantalla el resultado de la ejecución
   }
   }
