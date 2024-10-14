@@ -1,0 +1,5 @@
+Rectangulo 10 12 #ccccee
+Rectangulo 15 15 #fff0f0
+Circulo 5 #aaaaaa
+Cuadrado 10 #000000
+Cuadrado 20
