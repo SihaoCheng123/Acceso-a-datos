@@ -19,11 +19,12 @@ public class EntradaYSalidaMain {
                       int cont = 0;
                       fos = new FileOutputStream("C:\\Users\\ALUMNO\\Desktop\\2º DAM\\Acceso a datos\\basico\\src\\ejer11\\salida.bin");
                       while((byteLeido = fis.read()) != -1){
-                          System.out.println((char)byteLeido);
+                          System.out.print((char)byteLeido);
                           byteLeidoEntrada[cont] = (byte) byteLeido;
                           cont ++;
                       }
                     fos.write(byteLeidoEntrada);
+                    System.out.println("");
                     System.out.println("Archivo creado correctamente");
 
 //                    long sizeFile = archivo.length();
