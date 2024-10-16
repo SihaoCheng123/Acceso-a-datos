@@ -114,3 +114,17 @@ Debeis de añadir una linea en el fichero TXT que muestre este caso.
 
 Finalmente, crearemos un fichero en otro método dentro de FileManager que cree un archivo TXT llamado
 resultados.txt donde se almacenarán todos los métodos toString de cada figura
+
+
+EJERCICIO
+
+Crear un archivo llamado entrada.txt con el siguiente contenido:
+
+Aprendiendo a usar FileInputStream y FileOutputStream
+Trabajando con archivos Java
+
+Se ha de escribir un programa en Java que lea el archivo txt y
+luego escribir el mismo contenido en otro archivo llamado salida.bin
+
+#Hay que asegurarse de leer el archivo en bloques bytes y
+escribirlo en el archivo de salida en modo binario
