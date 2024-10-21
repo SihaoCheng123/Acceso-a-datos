@@ -128,3 +128,37 @@ luego escribir el mismo contenido en otro archivo llamado salida.bin
 
 #Hay que asegurarse de leer el archivo en bloques bytes y
 escribirlo en el archivo de salida en modo binario
+
+
+EJERCICIO
+Se desea desarrollar un sistema de gestión de un zoológico donde cada animal tiene características específicas
+dependiendo de su especie. El zoo puede tener diferentes tipos de animales, mamíferos y aves.
+Queremos guardar toda la información en un archivo para recuperarla posteriormente
+El programa debe tener:
+    -Clase Animal(abstracta) que incluyen atributos comunes como nombre y edad
+    -Clase Mamífero y Ave que extienden de Animall. Cada una debe tener atributros especificos
+    -Los mamiferos tienen un atributo adicional: tienePelo() -> boolean
+    -Las aves tienen un atributo adicional: puedeVolar() -> boolean
+    -Clase Zoologico, contiene una lista de animales y permite agregar animales, listar todos los animales
+    y guardar/recuperar la lista de animales usando serialización y deserialización
+
+El programa debe:
+    -Permitir al usuario agregar más mamíferos o aves al zoologico a través de la consola
+    -Serializar la lista de animales en un archivo binario (.bin o .ser)
+    -Deserializar la lista y mostrar los animales en el zoologico cuando se vuelva a abrir el programa
+
+******APLICACION*****
+
+El zoologico ahora no solo maneja animales, sino también Cuidadores.
+Queremos ampliar la funcionalidad del Zoologico para que pueda gestionar tanto animales como cuidadores
+
+Implementar una interfaz llamada Gestionable que define los métodos:
+-String getNombre()
+-String getTipo()
+
+Esta interfaz debe ser implementada tanto por la clase Animal como por una nueva clase llamada Cuidador
+La clase Zoologico debe de ser capaz de manejar tanto animales como cuidadores en su lista.
+El programa debe permitir al usuario:
+    -Agregar un nuevo animal o cuidador
+    -Mostrar todos los elementos gestionables
+    -Guardar y cargar toda la info(animales y cuidadores) mediante serialización

@@ -17,8 +17,7 @@ public class ActividadSerMain {
         while(respuesta.equals("si")){
             addEmpleados(listaEmpleados);
             System.out.println("¿Desea agregrar más empleados?");
-            String respuesta2 = scanner.next();
-            respuesta = respuesta2;
+            respuesta = scanner.next();
 
         }
 
