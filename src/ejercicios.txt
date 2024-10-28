@@ -162,3 +162,60 @@ El programa debe permitir al usuario:
     -Agregar un nuevo animal o cuidador
     -Mostrar todos los elementos gestionables
     -Guardar y cargar toda la info(animales y cuidadores) mediante serialización
+
+**REPASO EXAMEN**
+
+Ej1:
+
+Desarrolla un programa para gestionar un inventario de productos de una tienda.
+El programa debe leer un archivo de texto que contiene los datos de los productos,
+agregar nuevos productos de forma manual y guardar el inventario actualizadpo.
+Además, debe de verificar la existencia del archvio. Si el archvio existe,
+mostrará en consola los datos del archivo. Si el archivo no existe,
+debe de mostrar por pantalla "el archivo no existe".
+
+Requisitos:
+    -Define una clase Prodcuto con los atributos:
+        *String cod (código único del producto)
+        *String nombre
+        *int cantidad
+        *double precio
+    -Incluye el método toString() que retorne : "[nombre]|[cantidad]|[precio]"
+
+    -Clase GestorInventario
+    *Implementa métodos para gestionar el archivo de inventario utilizando FileReader, FileWriter y File
+    *ArrayList<Producto>: almacenar los productos
+    *leerInventario(File file): leer los productos desde el archivo y crear instancias de Producto con su contenido
+    *agregarProductosArchivo(File file): Añadir los productos a un archivo .txt
+    *mostrarInfoArchivo(File file): muestra si el arvhivo existe o no y el tamaño del archivo en bytes(si existe)
+
+
+ej2:
+Desarrolla un programa que gestione un registro de Vehiculos almacenandolo en un archivo binario(.ser).
+El programa debe de leer el archivo llamado vehiculos.ser, agregar nuevos registros y guardando el archivo actualizado,
+comprobar si el archivo existe, debe de crear uno si no existe con los datos que quieras con la siguiente estructura:
+
+[matricula];[marca];[modelo];[ano]
+
+Requisitos;
+    -Clase abstracta Vehículo
+        *String matricula
+        *String marca
+        *String modelo
+        *String ano
+        *metodo abstracto tipoVehiculo()
+        *metodo toString() -> "[matricula];[marca];[modelo];[ano]"
+
+    -Clase Coche:
+        *String tipo -> inicializarlo en constructor y será "coche"
+
+    -Clase GestorVehiculoBinario
+        *ArrayList<Coche>
+        *verificarArchivo(File file) ->
+            -comprobar si existe el archivo o no. EN caso de no existir, añadir valores por defecto
+            -Si el archivo existe, mostrar por consola el tamaño de bytes del archivo
+        *leerFichero(File file) -> lectura del fichero y crear instancias de Coche
+        *agregarCoches(File file) -> Actualizar el archivo de vehiculos.ser con el contenido existente y dos instancias de coches más creadas de forma manual
+        *mostrarPorPantalla(File file) -> mostrar el contenido del archivo despues de guardar los coches
+
+    Hay que utilizar FileInputStream, FileOutputStream y File

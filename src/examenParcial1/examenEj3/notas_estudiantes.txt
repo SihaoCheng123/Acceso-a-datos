@@ -1,0 +1,3 @@
+Juan Perez | 8.5
+Ana Lopez | 7.5
+lola|9.0

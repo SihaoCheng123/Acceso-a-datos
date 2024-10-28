@@ -1,0 +1,5 @@
+portatil|3|711.2
+movil|2|412.0
+cascos|7|50.0
+raton|10|30.0
+
